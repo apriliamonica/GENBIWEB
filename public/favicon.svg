@@ -1,0 +1,81 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  {/* White Background */}
+  <rect width="200" height="200" fill="#FFFFFF"/>
+  
+  {/* Outer Circle */}
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#000000" stroke-width="4"/>
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#000000" stroke-width="2"/>
+
+  {/* Top Arc Text - GENERASI BARU INDONESIA */}
+  <text x="100" y="30" text-anchor="middle" font-size="10" font-weight="bold" fill="#000000" font-family="Arial, sans-serif">GENERASI BARU INDONESIA</text>
+
+  {/* Bottom Arc Text - UNIKA DE LA SALLE */}
+  <text x="100" y="175" text-anchor="middle" font-size="10" font-weight="bold" fill="#000000" font-family="Arial, sans-serif">UNIKA DE LA SALLE</text>
+
+  {/* Center Top Text - KOMISARIAT */}
+  <text x="100" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#000000" font-family="Arial, sans-serif">KOMISARIAT</text>
+
+  {/* Central Graphic - Stylized Figures */}
+  <g transform="translate(100, 100)">
+    {/* Figure 1 */}
+    <circle cx="0" cy="-30" r="8" fill="#0056B3"/>
+    <circle cx="0" cy="-30" r="3" fill="#FF0000"/>
+    <path d="M -8 -30 Q -12 -20 -8 -10 Q -4 -5 0 -10 Q 4 -5 8 -10 Q 12 -20 8 -30" fill="#0056B3"/>
+
+    {/* Figure 2 */}
+    <g transform="rotate(72)">
+      <circle cx="0" cy="-30" r="8" fill="#0056B3"/>
+      <circle cx="0" cy="-30" r="3" fill="#FF0000"/>
+      <path d="M -8 -30 Q -12 -20 -8 -10 Q -4 -5 0 -10 Q 4 -5 8 -10 Q 12 -20 8 -30" fill="#0056B3"/>
+    </g>
+
+    {/* Figure 3 */}
+    <g transform="rotate(144)">
+      <circle cx="0" cy="-30" r="8" fill="#0056B3"/>
+      <circle cx="0" cy="-30" r="3" fill="#FF0000"/>
+      <path d="M -8 -30 Q -12 -20 -8 -10 Q -4 -5 0 -10 Q 4 -5 8 -10 Q 12 -20 8 -30" fill="#0056B3"/>
+    </g>
+
+    {/* Figure 4 */}
+    <g transform="rotate(216)">
+      <circle cx="0" cy="-30" r="8" fill="#0056B3"/>
+      <circle cx="0" cy="-30" r="3" fill="#FF0000"/>
+      <path d="M -8 -30 Q -12 -20 -8 -10 Q -4 -5 0 -10 Q 4 -5 8 -10 Q 12 -20 8 -30" fill="#0056B3"/>
+    </g>
+
+    {/* Figure 5 */}
+    <g transform="rotate(288)">
+      <circle cx="0" cy="-30" r="8" fill="#0056B3"/>
+      <circle cx="0" cy="-30" r="3" fill="#FF0000"/>
+      <path d="M -8 -30 Q -12 -20 -8 -10 Q -4 -5 0 -10 Q 4 -5 8 -10 Q 12 -20 8 -30" fill="#0056B3"/>
+    </g>
+
+    {/* Center - Graduation Cap */}
+    <g transform="translate(0, -5)">
+      {/* Cap Base */}
+      <rect x="-15" y="-8" width="30" height="8" fill="#FF0000"/>
+      {/* Cap Top */}
+      <path d="M -15 -8 L 0 -15 L 15 -8" fill="#FF0000" stroke="#000000" stroke-width="1"/>
+      {/* Tassel */}
+      <circle cx="10" cy="-8" r="2" fill="#FFD700"/>
+      <line x1="10" y1="-8" x2="10" y2="0" stroke="#FFD700" stroke-width="1"/>
+    </g>
+  </g>
+
+  {/* Side Emblems */}
+  <g transform="translate(30, 100)">
+    <circle cx="0" cy="0" r="12" fill="#00AA00"/>
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#FFD700" stroke-width="1"/>
+    <text x="0" y="4" text-anchor="middle" font-size="8" fill="#FFD700" font-family="Arial, sans-serif">★</text>
+  </g>
+
+  <g transform="translate(170, 100)">
+    <circle cx="0" cy="0" r="12" fill="#00AA00"/>
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#FFD700" stroke-width="1"/>
+    <text x="0" y="4" text-anchor="middle" font-size="8" fill="#FFD700" font-family="Arial, sans-serif">★</text>
+  </g>
+
+  {/* Bottom Text - MANADO */}
+  <text x="100" y="195" text-anchor="middle" font-size="12" font-weight="bold" fill="#000000" font-family="Arial, sans-serif">MANADO</text>
+</svg>
+
